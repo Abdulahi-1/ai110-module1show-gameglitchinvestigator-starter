@@ -178,7 +178,7 @@ if submit:
             st.balloons()
             st.session_state.status = "won"
             if st.session_state.score > st.session_state.high_score:
-                st.session_state.high_score = st.session_state.score
+                st.session_state.high_score += st.session_state.score
             st.success(
                 f"You won! The secret was {st.session_state.secret}. "
                 f"Final score: {st.session_state.score}"
