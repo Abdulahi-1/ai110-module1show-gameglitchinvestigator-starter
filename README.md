@@ -23,22 +23,18 @@ It wrote the code, ran away, and now the game is unplayable.
    - Run `pytest` in your terminal.
    - Keep fixing until all tests pass!
 
+
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
 
 The game's purpose is to give users a certain amount of tries and a range of numbers to guess from. Its a modern number guessing game that also calculates ones own high score from the number of questions they get correct. When I initially played the game, the attempts (number of tries a user has) were below zero. I instantly knew that there was a bug in the way the attempts decremented, you cannot have negative number amount of attempts. When I occassionally swapped difficulty levels, I noticed that the normal level was much more harder than the hard level. This was because their guessing ranges were mismatched. Each time I got a quess correct, the score didn't accumulate or save after every game. To fix these bugs, I changed the range for the "Easy" level to be between 1 to 20. I then changed the range for the "Normal" level to be between 1 to 50. Lastly, the "Hard" level was changed between 1 to 100. I swapped the number of attempts for both Easy and Normal difficulty levels. 
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
-      <img width="744" height="766" alt="Screenshot 2026-03-08 at 2 48 48 PM" src="https://github.com/user-attachments/assets/8cf520ca-238c-4f5f-866f-0a8d44e8f512" />
+<img width="744" height="766" alt="Screenshot 2026-03-08 at 2 48 48 PM" src="https://github.com/user-attachments/assets/8cf520ca-238c-4f5f-866f-0a8d44e8f512" />
 
 
 ## 🚀 Stretch Features
 
-- [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
 <img width="744" height="766" alt="Screenshot 2026-03-08 at 2 49 49 PM" src="https://github.com/user-attachments/assets/c82ea0ab-d55a-479f-8fda-28a87841187e" />
 
